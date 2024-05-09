@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanche Salgado - Receitando.com</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Merriweather';
+        }
+
+        .background {
+            background-color: #528657;
+            color: #E4DEDC;
+        }
+
+        .alt-background {
+            background-color: #E4DEDC;
+            color: #528657;
+        }
+
+        .menu_1 {
+            background-color: #E4DEDC;
+            padding: 10px;
+        }
+
+        .menu_1 h1 {
+            color: #528657;
+            font-size: 1cm;
+            margin-top: 5px;
+            text-align: left;
+        }
+
+        .menu_1 h2 {
+            color: #528657;
+            font-size: 0.5cm;
+            margin-top: 5px;
+            text-align: left;
+        }
+
+        #profile-icon {
+            position: fixed;
+            top: 40px;
+            right: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #528657;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        #profile-icon img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        .square {
+            width: 100%;
+            height: 150px; /* Altura padrão para todas as divs */
+            text-align: left;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            box-sizing: border-box;
+            padding: 10px;
+            position: relative;
+        }
+
+        /* Aplique um estilo diferente para a primeira div */
+        .square:first-of-type {
+            height: 100px !important; /* Altura reduzida para a primeira div */
+            font-weight: bold;
+            font-family: 'Merriweather';
+            font-size: 24px;
+        }
+
+        .square img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .square .title {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .title{
+            margin-left: 200px;
+        }
+        p{
+            color:#528657;
+            font-size: 2em;
+            margin-left:10px;
+        }
+        p1{
+            color:#E4DEDC;
+            font-size: 2em;
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="menu_1">
+        <h1>Receitando.com</h1>
+        <h2>As receitas mais práticas em um só lugar!</h2>
+
+    </header>
+    <div class="square background">LANCHE SALGADO</div>
+
+    <div class="square alt-background">
+        <img src="waffles.avif" alt="Waffles" width="150px" height="150px">
+        <div >
+            <a href="https://cybercook.com.br/receitas/doces/receita-de-massa-basica-para-waffles-15875"><p>Waffles</p></a>
+        </div>
+    </div>
+
+    <div class="square background">
+        <img src="paoqueijo.jpg" alt="Pão de Queijo" width="150px" height="150px">
+        <div >
+            <a href="https://www.tudogostoso.com.br/receita/175982-pao-de-queijo-de-frigideira-de-tapioca.html"><p1>Pão de Queijo de frigideira</p1></a>
+        </div>
+    </div>
+
+    <div class="square alt-background">
+        <img src="panqueca.jpg" alt="Panqueca" width="150px" height="150px">
+        <div >
+            <a href="https://www.tudogostoso.com.br/receita/130714-panqueca-doce-americana.html"><p>Panquecas</p></a>
+        </div>
+    </div>
+    
+
+    <div class="square background">
+        <img src="paodeaveia.jpg" alt="Pão de Aveia" width="150px" height="150px">
+        <div >
+            <a href="https://www.receitasnestle.com.br/receitas/pao-de-aveia-de-frigideira"><p1>Pão de Aveia de frigideira</p1></a>
+        </div>
+    </div>
+
+    <div class="square alt-background">
+        <img src="bolodecaneca.jpg" alt="Bolo de Caneca" width="150px" height="150px">
+        <div >
+            <a href="https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-caneca-microondas-4d54384052e0b20f760006e9.ghtml"><p>Bolo de Caneca</p></a>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
